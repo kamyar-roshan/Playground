@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn import metrics
 from sklearn.neighbors import KNeighborsClassifier
 
-os.chdir('/gpfs/scratch/kar6058/Interviews')
+os.chdir('/gpfs/scratch/kar/')
 file_name = "iris.data"
 data =  pd.read_csv(file_name, sep=",")
 titles =["petal_length", "petal_width", "sepal_length", "sepal_width", "flower_type"]
